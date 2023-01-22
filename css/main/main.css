@@ -1,0 +1,9 @@
+@import "./accommodation/accommodation.css";
+@import "./activity/activity.css";
+@import url("./search/search.css");
+
+main {
+	/* background: blue; */
+	display: flex;
+	flex-direction: column;
+}

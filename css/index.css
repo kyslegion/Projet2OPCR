@@ -1,0 +1,36 @@
+
+@import url("./main/main.css");
+@import url("./footer/footer.css");
+@import url("./header/header.css");
+@import url("./desktop/desktop.css")(min-width: 992px);
+
+body{
+  /* background-color: red; */
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  box-sizing: border-box;
+  font-family: 'Raleway';
+  color: #000000;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+a {
+	text-decoration: none;
+	color: black;
+  }
+
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+      /* background-color: red; */
+    }
+  }
+  @media only screen and (max-width: 768px){
+    body{
+      
+      /* background-color: yellow; */
+    }
+  }

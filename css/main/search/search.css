@@ -1,0 +1,23 @@
+@import url('./title.css');
+@import url('./form.css');
+@import url('./filter.css');
+@import url('./info.css');
+
+.search {
+	padding-inline: 5%;
+	display: flex;
+	flex-direction: column;
+    align-content: center;
+	margin-bottom: 2.5em;
+}
+@media only screen and (max-width: 768px){
+	.search {
+		padding-inline: 5%;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		/* margin-bottom: 2.5em; */
+		margin-bottom: 34px;
+		margin-top: 31px;
+	}
+}

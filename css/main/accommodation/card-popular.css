@@ -1,0 +1,301 @@
+.card-popular {
+	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(242, 242, 242, 1);
+	border-radius: 1.25em;
+	padding-inline: 2.5em;
+}
+.card-popular h1 {
+	width: 100%;
+	font-size: 1.373em;
+	/* font-size: 1.43vw; */
+	display: flex;
+	justify-content: space-between;
+	margin-top: 41px;
+	margin-bottom: 26px;
+}
+.card-popular h1 .icon{
+    height: 0.984em;
+	width: 1.125em;
+}
+.card-popular ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	width: 100%;
+	/* background-color: red; */
+}
+.card-popular ul li {
+	/* background-color: blue; */
+	border-radius: 0.96em;
+	display: flex;
+	height: 9em;
+	flex-direction: row;
+	align-items: center;
+	background: white;
+	filter: drop-shadow(0em 3px 0.938em rgba(0, 0, 0, 0.1));
+	margin-bottom: 1.875em;
+	width: 100%;
+}
+.card-popular ul li a{
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	width: 100%;
+	margin: 0;
+}
+.card-popular ul li a .card-image{
+	/* width: 100%; */
+}
+.card-popular ul li a .card-image .image {
+	border-radius: 1.248em 0vw 0vw 1.248em;
+	border: 0.32vw solid #FFFFFF;
+	width: 8.563em;
+	height: 100%;
+	object-fit: cover;
+	box-sizing: border-box;
+}
+.card-popular ul li a .card-body{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-inline: 2%;
+}
+.card-popular ul li a .card-body .title {
+	text-align: left;
+	font-weight: 700;
+	font-size: 1em;
+	/* font-size: 1.041vw; */
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+}
+.card-popular ul li a .card-body .price {
+	font-size: 0.875em;
+	/* font-size: 0.911vw; */
+	font-weight: 400;
+}
+.card-popular ul li a .stars {
+	width: 100%;
+	
+}
+.card-popular ul li a .stars .fa-star{
+	font-size: 0.75em;
+	color: rgba(242, 242, 242, 1);
+}
+
+.card-popular ul li a .stars .fa-star:nth-child(n+1):nth-child(-n+4){
+	color: rgba(0, 101, 252, 1);
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.card-popular {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: rgba(242, 242, 242, 1);
+		border-radius: 1.25em;
+		padding-inline: 2.5em;
+		margin-bottom: unset;
+	}
+	.card-popular h1 {
+		width: 100%;
+		font-size: 1.373em;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 41px;
+		margin-bottom: 26px;
+	}
+	.card-popular h1 .icon{
+		height: 0.984em;
+		width: 1.125em;
+	}
+	.card-popular ul{
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		gap: 13px;
+		height: 9em;
+		margin-bottom: 48px;
+		width: 100%;
+	}
+	.card-popular ul li {
+		border-radius: 0.96em;
+		display: flex;
+		height: 9em;
+		flex-direction: row;
+		align-items: center;
+		background: white;
+		filter: drop-shadow(0em 3px 0.938em rgba(0, 0, 0, 0.1));
+		margin-bottom: 1.875em;
+		width: 100%;
+	}
+	.card-popular ul li a{
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		width: 100%;
+		margin: 0;
+	}
+	.card-popular ul li a .card-image{
+		/* width: 100%; */
+		width: 100%;
+	}
+	.card-popular ul li a .card-image .image {
+		border-radius: 1.248em 0vw 0vw 1.248em;
+		border: 0.32vw solid #FFFFFF;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		box-sizing: border-box;
+	}
+	.card-popular ul li a .card-body{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		padding-inline: 2%;
+		margin-bottom: unset;
+	}
+	.card-popular ul li a .card-body .title {
+		text-align: left;
+		font-weight: 700;
+		font-size: 0.875em;
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+	.card-popular ul li a .card-body .price {
+		font-size: 0.813em;
+		font-weight: 400;
+	}
+	.card-popular ul li a .stars {
+		width: 100%;
+	}
+	.card-popular ul li a .stars .fa-star{
+		font-size: 0.75em;
+		color: rgba(242, 242, 242, 1);
+		width: 0.75em;
+		height: 0.75em;
+	}
+	
+	.card-popular ul li a .stars .fa-star:nth-child(n+1):nth-child(-n+4){
+		color: rgba(0, 101, 252, 1);
+	}
+
+}
+@media only screen and (max-width: 768px){
+	.card-popular {
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		background: rgba(242, 242, 242, 1);
+		border-radius: 1.25em;
+		/* padding-inline: 2.5em; */
+		margin-bottom: unset;
+		padding-inline: 5%;
+	}
+	.card-popular h1 {
+		/* width: 100%; */
+		width: calc(100% - 20px);
+		font-size: 1.373em;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 41px;
+		margin-bottom: 26px;
+	}
+	.card-popular h1 .icon{
+		height: 0.984em;
+		width: 1.125em;
+	}
+	.card-popular ul{
+		
+		margin: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		gap: 13px;
+		height: unset;
+		margin-bottom: 48px;
+		/* width: 100%; */
+		width: calc(100% - 20px);
+	}
+	.card-popular ul li {
+		border-radius: 0.96em;
+		display: flex;
+		height: 9em;
+		flex-direction: row;
+		align-items: center;
+		background: white;
+		filter: drop-shadow(0em 3px 0.938em rgba(0, 0, 0, 0.1));
+		/* margin-bottom: 1.875em; */
+		margin-bottom: unset;
+		width: 100%;
+	}
+	.card-popular ul li a{
+		height: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		width: 100%;
+		margin: 0;
+	}
+	.card-popular ul li a .card-image{
+		/* background-color: blue; */
+		/* width: 100%; */
+		width: 100%;
+	}
+	.card-popular ul li a .card-image .image {
+		border-radius: 1.248em 0vw 0vw 1.248em;
+		/* border: 0.32vw solid #FFFFFF; */
+		width: 100%;
+		height: 144px;
+		border: 5px solid #FFFFFF;
+		object-fit: cover;
+		box-sizing: border-box;
+	}
+	.card-popular ul li a .card-body{
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		padding-inline: 2%;
+		margin-bottom: unset;
+	}
+	.card-popular ul li a .card-body .title {
+		text-align: left;
+		font-weight: 700;
+		font-size: 0.875em;
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+	}
+	.card-popular ul li a .card-body .price {
+		font-size: 0.813em;
+		font-weight: 400;
+	}
+	.card-popular ul li a .stars {
+		width: 100%;
+	}
+	.card-popular ul li a .stars .fa-star{
+		font-size: 0.75em;
+		color: rgba(242, 242, 242, 1);
+		width: 0.75em;
+		height: 0.75em;
+	}
+	
+	.card-popular ul li a .stars .fa-star:nth-child(n+1):nth-child(-n+4){
+		color: rgba(0, 101, 252, 1);
+	}
+}

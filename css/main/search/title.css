@@ -1,0 +1,33 @@
+.search .title{
+    display: flex;
+    flex-direction: column;
+}
+.search .title h1{
+    font-size: 1.375em;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.search .title h2{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1em;
+    margin-bottom: 1.25em;
+}
+::placeholder {
+    color: black;
+    opacity: 1;
+  }
+
+  @media only screen and (max-width: 768px){
+    .search .title{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 36px;
+    }
+    .search .title h2{
+        margin: 0;
+        font-weight: 400;
+        font-size: 1em;
+        /* margin-bottom: 36px; */
+    }
+  }

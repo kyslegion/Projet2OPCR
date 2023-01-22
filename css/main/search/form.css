@@ -1,0 +1,72 @@
+.form{
+    height: 3.063em;
+    display: flex;
+}
+.form input {
+	font-size: 0.96em;
+	border-left: 0.063em solid white;
+	border: 0;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	font-weight: 700;
+	font-size: 1.123em;
+	/* width: 22.5%; */
+	padding-left: 0.938em;
+}
+.form button{
+    border: 0;
+    height: 100%;
+    border-radius: 0.5vw;
+    background: #0065FC;
+    border: 0.06vw solid #0065FC;
+    border-radius: 0vw 0.97vw 0.97vw 0vw; 
+    padding: 0.625em;
+    font-weight: 700;
+    font-size: 1.125em;
+    color: #FFFFFF;
+	font-family: Raleway;
+}
+.form input:focus-visible{
+    outline: none;
+}
+.fa-map-marker-alt {
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	padding-right: 1.125em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1.125em;
+	border-radius: 0.938em 0em 0em 0.938em;
+	background: rgba(242, 242, 242, 1);
+}
+.glass{
+	display: none;
+	width: 1em;
+}
+
+
+@media only screen and (max-width: 768px){
+	.form input {
+		font-size: 0.96em;
+		border-left: 0.063em solid white;
+		border: 0;
+		display: flex;
+		justify-content: center;
+		align-content: center;
+		font-weight: 700;
+		font-size: 1.123em;
+		width: 100%;
+		padding-left: 0.938em;
+	}
+	.form button{
+		border-radius: 0px 15px 15px 0px;
+	}
+	.form button span{
+		display: none;
+	}
+	.form button .glass{
+		display: block;
+	}
+}

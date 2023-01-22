@@ -1,0 +1,129 @@
+
+/* .filter {
+	display: flex;
+	margin-bottom: 2.4em;
+	padding-inline: 5%;
+	width: 70%;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: center;
+	align-items: center;
+} */
+.filter {
+	/* background-color: yellow; */
+	display: flex;
+	margin-bottom: 2.4em;
+	padding-inline: 5%;
+	/* width: 70%; */
+	flex-direction: row;
+	/* justify-content: unset; */
+	align-content: center;
+	align-items: center;
+	gap: 2%;
+}
+.filter ul {
+	display: flex;
+	padding: 0;
+	padding-left: 0;
+	gap: 0.432em;
+	width: 100%;
+}
+.filter .btn {
+	justify-content: space-evenly;
+	background: white;
+	border-radius: 2vw;
+	border: 2px solid rgb(217, 217, 217);
+	gap: 0.432em;
+	display: flex;
+	/* height: 2.5em; */
+	flex-direction: row;
+	align-items: center;
+	padding: 0.688em 1.25em;
+	margin-right: 4%;
+}
+
+.filter .btn:hover{
+	background-color: rgba(222, 235, 255, 1);
+}
+
+.filter .title {
+	font-weight: 700;
+	font-size: 1.125em;
+}
+.filter .filterContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.filter .filterContainer .btn {
+	justify-content: space-evenly;
+	border-radius: 0.96em;
+	border: 2px solid rgb(217, 217, 217);
+	gap: 0.432em;
+	display: flex;
+	flex-direction: row;
+	padding: 0.688em 1.25em;
+}
+.filter .filterContainer .btn:hover{
+	background-color: rgba(222, 235, 255, 1);
+}
+.filter ul li a .filterBtnText{
+	font-weight: 700;
+	font-size: 1.375em;
+	font-size: 17px;
+	font-family: 'Raleway';
+}
+
+@media only screen and (max-width: 768px){
+	.filter {
+		/* background-color: red; */
+		display: flex;
+		/* margin-bottom: unset; */
+		margin-bottom: 43px;
+		padding-inline: 5%;
+		/* width: 100%; */
+		flex-direction: column;
+		/* justify-content: unset; */
+		align-content: center;
+		align-items: center;
+		gap: 2%;
+		box-sizing: border-box;
+	}
+	.filter .title{
+		margin-top: 3px;
+		width: 100%;
+	}
+	.filter ul {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0;
+		gap: 17px;
+		margin: 0;
+	}
+	.filter .btn {
+		/* justify-content: space-evenly; */
+		background: white;
+		/* border-radius: 2vw; */
+		border: 2px solid rgb(217, 217, 217);
+		gap: 0.432em;
+		display: flex;
+		/* padding: 0; */
+		/* height: 2.5em; */
+		flex-direction: row;
+		align-items: center;
+		/* padding: 0.688em 1.25em; */
+		/* width: max-content; */
+		border-radius: 25px;
+		justify-content: unset;
+	}
+	.filter ul li a .filterBtnText{
+		/* background-color: orange; */
+		font-weight: 700;
+		font-size: 11px;
+		font-family: 'Raleway';
+	}
+}
