@@ -2,7 +2,6 @@
 @import "./card-popular.css";
 
 .accommodation {
-	/* width: 100%; */
 	display: flex;
 	gap: 2.5em;
 	padding-inline: 2.813em;
@@ -11,7 +10,6 @@
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 	.accommodation {
 		/* background-color: red; */
-		/* display: unset; */
 		flex-direction: column-reverse;
 		width: unset !important;
 		gap: 53px;
@@ -22,7 +20,6 @@
 @media only screen and (max-width: 768px){
 	.accommodation {
 		/* background-color: red; */
-		/* display: unset; */
 		flex-direction: column-reverse;
 		width: unset !important;
 		gap: unset;
