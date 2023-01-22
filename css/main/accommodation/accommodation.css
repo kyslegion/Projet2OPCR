@@ -10,7 +10,7 @@
 @media only screen and (min-width: 768px) and (max-width: 992px) {
 	.accommodation {
 		/* background-color: red; */
-		flex-direction: column-reverse;
+		flex-direction: column;
 		width: unset !important;
 		gap: 53px;
 		margin-bottom: 70px;

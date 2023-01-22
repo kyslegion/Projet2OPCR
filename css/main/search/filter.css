@@ -61,6 +61,17 @@
 	font-size: 17px;
 	font-family: 'Raleway';
 }
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	.filter{
+		gap: 0;
+	}
+    .filter .btn{
+		margin-right: 0;
+	}
+	.filter ul {
+		justify-content: space-evenly;
+	}
+  }
 
 @media only screen and (max-width: 768px){
 	.filter {
