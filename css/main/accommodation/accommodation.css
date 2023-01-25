@@ -15,7 +15,6 @@
 		gap: 53px;
 		margin-bottom: 70px;
 	}
-
 }
 @media only screen and (max-width: 768px){
 	.accommodation {
@@ -23,7 +22,6 @@
 		flex-direction: column-reverse;
 		width: unset !important;
 		gap: unset;
-		
 		margin-bottom: 105px;
 		padding-inline:0;
 	}

@@ -1,6 +1,5 @@
-
+/* 
 .filter {
-	/* background-color: yellow; */
 	display: flex;
 	margin-bottom: 2.4em;
 	padding-inline: 5%;
@@ -13,7 +12,7 @@
 	display: flex;
 	padding: 0;
 	padding-left: 0;
-	gap: 0.432em;
+	gap: 2.932em;
 	width: 100%;
 }
 .filter .btn {
@@ -26,7 +25,6 @@
 	flex-direction: row;
 	align-items: center;
 	padding: 0.688em 1.25em;
-	margin-right: 4%;
 }
 
 .filter .btn:hover{
@@ -60,22 +58,26 @@
 	font-size: 1.375em;
 	font-size: 17px;
 	font-family: 'Raleway';
-}
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+} */
+/* @media only screen and (min-width: 768px) and (max-width: 992px) {
 	.filter{
 		gap: 0;
 	}
     .filter .btn{
 		margin-right: 0;
+		padding: 1.36vh 0.25em;
 	}
+	
 	.filter ul {
 		justify-content: space-evenly;
 	}
-  }
+	.filter .title{
+		margin-right: 1.432em;
+	}
+  } */
 
-@media only screen and (max-width: 768px){
+/* @media only screen and (max-width: 768px){
 	.filter {
-		/* background-color: red; */
 		display: flex;
 		margin-bottom: 43px;
 		padding-inline: 5%;
@@ -110,9 +112,92 @@
 		justify-content: unset;
 	}
 	.filter ul li a .filterBtnText{
-		/* background-color: orange; */
 		font-weight: 700;
 		font-size: 11px;
 		font-family: 'Raleway';
 	}
+} */
+
+.filter {
+	position: relative;
+	left: 5.5%;
+	align-items: center;
+	display: flex;
+	font-size: 18px;
+	color: black;
+	font-family: 'Raleway-Bold', sans-serif;
+	transform-origin: left;
+	font-weight: 700;
 }
+.filter .title {
+	font-size: 18px;
+	color: black;
+	font-family: 'Raleway-Bold', sans-serif;
+}
+.filter ul {
+	display: flex;
+	list-style-type: none;
+}
+.filter ul li {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	margin-right: 20px;
+	padding-right: 20px;
+	border: 2px solid #F2F2F2;
+	border-radius: 250px;
+	transform: scale(1.0);
+	transform-origin: left;
+	transition: all 250ms;
+}
+.filter ul li img {
+	align-items: center;
+	padding: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 15px;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-right: 10px;
+	background-color: #DEEBFF;
+	border-radius: 300px;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+	/* .filter{
+		gap: 0;
+	}
+    .filter .btn{
+		margin-right: 0;
+		padding: 1.36vh 0.25em;
+	}
+	
+	.filter ul {
+		justify-content: space-evenly;
+	}
+	.filter .title{
+		margin-right: 1.432em;
+	} */
+  }
+@media only screen and (max-width: 768px){
+	.filter {
+		position: relative;
+		left: 5.5%;
+		align-items: flex-start;
+		flex-direction: column;
+		margin-top: -15px;
+		margin-bottom: 20px;
+	}
+	.filter ul {
+		flex-wrap: wrap;
+		margin: 0;
+		padding-left: 0;
+		width: 100%;
+	}
+	.filter ul li {
+		margin: 0;
+	}
+	
+}
+
+
