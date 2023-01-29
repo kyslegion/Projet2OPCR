@@ -2,6 +2,7 @@ header .header-logo{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: display 0.5s ease-in-out;
 }
 header .header-logo img{
     height: 1.188em;

@@ -219,6 +219,7 @@
 		font-weight: 700;
 		font-size:  1.373em;
 		margin-bottom: 1.152em;
+		margin-top: 0;
 	}
 	.activity .activity-body {
 		display: flex;
@@ -243,7 +244,7 @@
 		justify-items: center;
 		justify-self: center;
 		padding-left: 0em;
-		gap: 2.688em;
+		gap: 24px;
 	}
 	.activity .activity-body li {
 		display: flex;

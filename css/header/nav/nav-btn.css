@@ -18,9 +18,9 @@
 @media only screen and (max-width: 768px){
     .nav-btn {
 		display: flex;
-		justify-content: space-evenly;
+		justify-content: space-around;
 		align-items: center;
-		gap: 4.188em;
+		gap: unset;
 		height: 1.19em;
 		font-size: 1em;
 		font-weight: 500;
@@ -28,12 +28,25 @@
 		text-decoration: none;
 		width: 100%;
 		padding-left: 0px;
+		
 	}
 	.nav-btn a:hover{
 		border-top: unset;
 		color: unset;
 		padding-block: unset;
-		/* background-color: blue; */
+		/* background-color: blue;
+		border-bottom: 3px solid blue; */
+	}
+	.nav-btn > li{
+		border-bottom: 3px solid rgba(242, 242, 242, 1);
+		padding-bottom: 23px;
+		width: 100%;
+		text-align: center;
+	}
+	.nav-btn > li:hover{
+		color: rgba(0, 101, 252, 1);
+		border-bottom: 3px solid rgba(0, 101, 252, 1);
+		padding-bottom: 17px;
 	}
 	
 }

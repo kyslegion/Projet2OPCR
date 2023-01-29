@@ -1,4 +1,4 @@
-/* 
+
 .filter {
 	display: flex;
 	margin-bottom: 2.4em;
@@ -12,8 +12,11 @@
 	display: flex;
 	padding: 0;
 	padding-left: 0;
-	gap: 2.932em;
+	/* gap: 2.932em; */
+	flex-wrap: wrap;
+	gap:2.932vw ;
 	width: 100%;
+	margin-right: -2vw;
 }
 .filter .btn {
 	justify-content: space-evenly;
@@ -58,23 +61,58 @@
 	font-size: 1.375em;
 	font-size: 17px;
 	font-family: 'Raleway';
-} */
-/* @media only screen and (min-width: 768px) and (max-width: 992px) {
+} 
+@media only screen and (min-width: 768px) and (max-width: 992px) {
 	.filter{
-		gap: 0;
+		/* gap: 0; */
+		align-items: baseline;
+		/* transition: all 15s ease; */
 	}
     .filter .btn{
-		margin-right: 0;
-		padding: 1.36vh 0.25em;
+		border-radius: 2.25em;
+		/* margin-right: 0; */
+		/* padding: 1.36vh 0.25em; */
+		/* transition: all 15s ease; */
 	}
 	
 	.filter ul {
-		justify-content: space-evenly;
+		/* justify-content: space-evenly; */
 	}
 	.filter .title{
-		margin-right: 1.432em;
+		/* margin-right: 1.432em; */
 	}
-  } */
+	.filter ul li a .filterBtnText{
+		font-weight: 700;
+		font-size: 17px;
+		font-family: 'Raleway';
+	}
+  }
+  @media only screen and (max-width: 768px){
+	.filter{
+		/* gap: 0; */
+		/* transition: all 15s ease; */
+		align-items: baseline;
+		flex-direction: column;
+	}
+	.filter ul{
+		/* display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr; */
+		margin-right: -5%;
+	}
+	.filter .btn{
+		border-radius: 2.25em;
+		/* width: 9.25em;
+height: 2.6em;
+padding: 0; */
+
+	}
+	.filter ul li a .filterBtnText{
+		font-weight: 700;
+		font-size: 11px;
+		font-family: 'Raleway';
+	}
+  }
 
 /* @media only screen and (max-width: 768px){
 	.filter {
@@ -116,8 +154,8 @@
 		font-size: 11px;
 		font-family: 'Raleway';
 	}
-} */
-
+}
+/* 
 .filter {
 	position: relative;
 	left: 5.5%;
@@ -162,8 +200,8 @@
 	margin-right: 10px;
 	background-color: #DEEBFF;
 	border-radius: 300px;
-}
-@media only screen and (min-width: 768px) and (max-width: 992px) {
+} */
+/* @media only screen and (min-width: 768px) and (max-width: 992px) { */
 	/* .filter{
 		gap: 0;
 	}
@@ -178,7 +216,7 @@
 	.filter .title{
 		margin-right: 1.432em;
 	} */
-  }
+  /* }
 @media only screen and (max-width: 768px){
 	.filter {
 		position: relative;
@@ -198,6 +236,6 @@
 		margin: 0;
 	}
 	
-}
+} */
 
 

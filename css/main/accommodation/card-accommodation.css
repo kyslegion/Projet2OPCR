@@ -48,7 +48,8 @@
 }
 .card-accommodation ul li a .card-image{
 	/* width: 100%; */
-	width: 100%;
+	/* width: 100%; */
+	width: 246px;
 	height: 8.64em;
 	border-top-left-radius: 0.96em;
 	border-top-right-radius: 0.96em;
@@ -165,6 +166,9 @@
 		width: 100%;
 		margin-left: unset;
 	}
+	.card-accommodation ul li a .card-image{
+		width: 100%;
+	}
 
 }
 @media only screen and (max-width: 768px){
@@ -183,12 +187,12 @@
 		/* width: 90%; */
 		font-size: 1.373em;
 		/* margin-left: 5em; */
-		margin-left: 20px;
+		margin-left: 0;
 		font-weight: 700;
 		/* width: 880px; */
 		/* width: 100%; */
 		width: 86%;
-		margin-top: 41px;
+		margin-top: 26px;
 		margin-bottom: 21px;
 	}
 	
@@ -247,10 +251,11 @@
 	.card-accommodation ul li .image {
 		width: 100%;
 		height: 8.64em;
+		
 		border-top-left-radius: 0.96em;
 		border-top-right-radius: 0.96em;
-		border-inline: 0.313em solid white;
-		border-block: 0.313em solid white;
+		border-inline:unset;
+		border-block:unset;
 		box-sizing: border-box;
 	}
 	.card-accommodation ul li a .card-body{

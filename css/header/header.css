@@ -17,6 +17,6 @@ header{
         flex-direction: column;
         margin-top: 21px;
         padding-inline: unset;
-        padding-inline: 5%;
+        padding-inline: unset;
     }
 }
