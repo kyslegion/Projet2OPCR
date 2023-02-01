@@ -95,9 +95,9 @@
 		flex-direction: column;
 	}
 	.filter ul{
-		/* display: grid;
+		display: grid;
 		grid-template-columns: 1fr 1fr;
-		grid-template-rows: 1fr 1fr; */
+		grid-template-rows: 1fr 1fr;
 		margin-right: -5%;
 	}
 	.filter .btn{
@@ -107,6 +107,11 @@ height: 2.6em;
 padding: 0; */
 
 	}
+	.btn a{
+		width: 100%;
+		text-align: center;
+	}
+	
 	.filter ul li a .filterBtnText{
 		font-weight: 700;
 		font-size: 11px;

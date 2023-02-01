@@ -48,8 +48,8 @@
 }
 .card-accommodation ul li a .card-image{
 	/* width: 100%; */
-	/* width: 100%; */
-	width: 246px;
+	width: 100%;
+	/* width: 246px; */
 	height: 8.64em;
 	border-top-left-radius: 0.96em;
 	border-top-right-radius: 0.96em;
@@ -68,7 +68,8 @@
 }
 .card-accommodation ul li a .card-body{
 	/* width: 100%; */
-	padding-inline: 1.563em;
+	/* padding-inline: 1.563em; */
+	padding-inline: 1em;
 }
 
 .card-accommodation ul li .price{
@@ -138,7 +139,8 @@
 	}
 	.card-accommodation ul li a .card-body{
 		width: 100%;
-		padding-inline: 1.563em;
+		/* padding-inline: 1.563em; */
+		padding-inline: 1em;
 	}
 	
 	.card-accommodation ul li .price{
@@ -260,7 +262,8 @@
 	}
 	.card-accommodation ul li a .card-body{
 		width: 100%;
-		padding-inline: 1.563em;
+		/* padding-inline: 1.563em; */
+		padding-inline: 1em;
 		
 	}
 	

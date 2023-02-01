@@ -19,7 +19,8 @@
     border-radius: 0.5vw;
     background: #0065FC;
     border: 0.06vw solid #0065FC;
-    border-radius: 0vw 0.97vw 0.97vw 0vw; 
+    /* border-radius: 0vw 0.97vw 0.97vw 0vw;  */
+	border-radius: 0px 15px 15px 0px;
     padding: 0.625em;
     font-weight: 700;
     font-size: 1.125em;
