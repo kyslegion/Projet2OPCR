@@ -2,7 +2,9 @@
 @import url("./main/main.css");
 @import url("./footer/footer.css");
 @import url("./header/header.css");
-
+html{
+  overflow-x: hidden;
+}
 body{
   box-sizing: border-box;
   color: #000000;
